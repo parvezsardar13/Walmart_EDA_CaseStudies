@@ -21,7 +21,6 @@ This project investigates customer transaction records from Walmart's Black Frid
 * How does sample size affect the precision of estimates and the sampling distribution of the mean?
 
 ## Dataset
-* **Source:** [ADD DATASET LINK]
 * **Rows:** 550,068
 * **Columns:** 10
 
@@ -60,15 +59,6 @@ This project investigates customer transaction records from Walmart's Black Frid
 * **Core Product Dominance**: Product Categories 1, 5, and 8 dominate purchase volume across all age groups and genders (e.g., Category 1 accounts for 115,547 purchases among men and 24,831 among women).
 * **Sample Size Effect on CLT**: Increasing sample sizes from $n = 300$ to $n = 30,000$ narrowed confidence interval widths by roughly 10x, and transformed sampling distributions into tighter, symmetric, bell-shaped curves matching Central Limit Theorem expectations.
 
-## Visualizations
-![Boxplot of Purchase Amount](images/purchase-boxplots.png)
-*Comparison of overall purchase amount distribution and purchase amounts segmented by gender.*
-
-![Product Category Purchases by Age Group](images/age-product-histogram.png)
-*Stacked histogram displaying transaction counts across product categories broken down by age groups.*
-
-![Sampling Distribution of Mean](images/clt-sampling-distribution.png)
-*Bootstrapped sampling distributions of the mean purchase amount across varying sample sizes ($300, 3,000, 30,000$, and full data).*
 
 ## Recommendations
 * **Prioritize Gender over Marital Status**: Because gendered average spend differs significantly while marital status shows no statistical difference, allocate personalized marketing and promotional budgets toward gender segments rather than marital segmentation.
